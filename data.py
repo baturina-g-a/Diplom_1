@@ -9,3 +9,5 @@ LIST_INGREDIENTS = [
     ['FILLING', 'Говяжий метеорит (отбивная)', 3000],
     ['SAUCE', 'Соус фирменный Space Sauce', 80]
 ]
+
+# данные взяты с сайта Stellar Burgers

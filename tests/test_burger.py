@@ -51,7 +51,7 @@ class TestBurger:
         assert burger.get_price() == expected_price
 
     @patch('praktikum.burger.Burger.get_price', return_value=2600)
-    def test_get_receipt(self, mock_get_price, mock_bun, mock_ingredient):
+    def test_get_receipt_got_successfully(self, mock_get_price, mock_bun, mock_ingredient):
         burger = Burger()
         burger.set_buns(mock_bun)
         burger.add_ingredient(mock_ingredient)
